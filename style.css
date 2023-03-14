@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@700&family=Outfit:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700&family=Outfit:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: #ECF2FF;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.divmain {
+    display: flex;
+    width: 736px;
+    background-color: #FFFFFF;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 32px;
+    box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
+}
+
+.divleftside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 32px;
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    padding: 38px 54px 55px 54px;
+}
+
+.headingresult {
+    font-family: "Hanken Grotesk";
+    font-style: normal;
+    font-size: 24px;
+    line-height: 31px;
+    color: #CAC9FF;
+}
+
+.divoval {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    margin-top: 35px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    padding:15px;
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+}
+
+.text76 {
+    font-family: "Hanken Grotesk";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.text100 {
+    font-family: "Hanken Grotesk";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #CAC9FF;
+    mix-blend-mode: normal;
+    opacity: 0.52;
+    margin-top: 4px;
+}
+
+.divresultsleft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 28px;
+}
+
+.textgreat {
+    font-family: "Hanken Grotesk";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.textperformanceresult {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #CAC9FF;
+    margin-top: 14px;
+}
+
+.divrightside {
+    display: flex;
+    flex-direction: column;
+    padding: 38px 40px 46px 40px;
+    width: 100%;
+    /* border-radius: 32px; */
+}
+
+.headingsummary {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #303B59;
+}
+
+.divresultsright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.divforgap {
+    display: flex;
+    flex-direction: row;
+    gap: 16.17px;
+}
+
+.divreaction {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+    padding: 17px 16px 16px 20.17px;
+    border-radius: 12px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+} 
+
+.textreaction {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FF5555;
+}
+
+.textscore {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: right;
+    color: #303B59;
+}
+
+span {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: right;
+    color: #303B59;
+    opacity: 0.5;
+}
+
+.divmemory {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    padding: 17px 16px 16px 20.17px;
+    border-radius: 12px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FFB21E;
+}
+
+.textmemory {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFB21E;
+}
+
+.divverbal {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    padding: 17px 16px 16px 20.17px;
+    border-radius: 12px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;
+}
+
+.textverbal {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #00BB8F;
+}
+
+.divvisual {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    padding: 17px 16px 16px 20.17px;
+    border-radius: 12px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;
+}
+
+.textvisual {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1125D6;
+}
+
+.divbutton {
+    display: flex;
+    justify-content: center;
+    margin-top: 41px;
+}
+
+.stylebutton {
+    width: 100%;
+    background-color: #303B59;
+    color: #FFFFFF;
+    border-radius: 128px;
+    padding: 17px 107px 16px 106px;
+    cursor: pointer;
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: right;
+    border: none;
+}
